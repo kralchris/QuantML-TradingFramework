@@ -1,7 +1,9 @@
 # Machine Learning-Driven Algo Quantitative Trading Strategy with Systematic Market Prediction Framework
 
 ## Overview
-This project showcases a robust quantitative trading framework using machine learning classification models and technical indicators to predict US stock index movements. Combining historical market and macroeconomic data, this framework aims to develop and backtest trading strategies that dynamically respond to evolving market conditions.
+This project showcases a robust quantitative trading framework using machine learning classification models and technical indicators to predict movements in the **NASDAQ-100 index** (`^NDX`). By combining historical market data and macroeconomic indicators, the framework aims to develop and backtest trading strategies that dynamically respond to evolving market conditions.
+
+The model integrates **macroeconomic data** such as the US Treasury Yield (`^TNX`), Dollar Index (`DX-Y.NYB`), WTI Crude Oil (`CL=F`), Gold (`GC=F`), and VIX (`^VIX`) to provide a comprehensive view of economic influences on the NASDAQ-100. This multi-dimensional approach enables more informed predictions and strategy decisions centered around trading the NASDAQ-100.
 
 ## Objectives
 - **Data Acquisition**: Retrieve and process market data for the NASDAQ-100 (US100) along with key macroeconomic indicators, such as US Treasury Yield, Dollar Index, WTI Crude Oil, Gold, and VIX.
